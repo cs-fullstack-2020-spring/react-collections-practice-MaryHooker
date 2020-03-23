@@ -26,7 +26,7 @@ class AppContainer extends Component {
                 <h1>AppContainer</h1>
                 {/* loop through our array and make components */}
                 {
-                    rawData.map((post,index) =>{
+                    rawData.map((post, index) =>{
                         return(
                         <PostComponent key={index} postData={post}/>)
                     }
